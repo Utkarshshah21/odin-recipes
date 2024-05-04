@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+h1{
+   background-color: rgb(230, 227, 102);
+   text-align: center;
+   color: #0d42d4;
+
+}
+
+#background{
+    background-color: aqua;
+    height: 600px;
+}
+
+ul{
+    background-color: hsl(7, 58%, 89%);
+    text-align: center;
+    list-style: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+li{
+    display: inline;
+    list-style-type: none;
+}
