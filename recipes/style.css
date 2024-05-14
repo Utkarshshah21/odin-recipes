@@ -1,36 +1,44 @@
 body{
+    margin: 75px 25%;
     background-color: black;
 }
+.background{
+    height: 400px;
+    width: 700px;
+    background-color: hsl(231, 70%, 74%);
+    color: white;
+    padding: 10px;
+    border-radius:20px;
+}
 h1{
-   background-color: rgb(230, 227, 102);
-   text-align: center;
-   color: #0d42d4;
-
-}
-
-#background{
-    background-color: aqua;
-    height: 600px;
-}
-
-ul{
-    background-color: hsl(7, 58%, 89%);
     text-align: center;
-    list-style: none;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-evenly;
-    
+    margin-top: 0;
 }
 
 a{
     text-decoration: none;
-    color: black;
-    font-size: 20px;
+    color: rgb(167, 67, 153);
+
 }
 
+ul{
+    list-style-type: none;
+    display:block;
+    background-color: rgb(247, 247, 149);
+    margin: 18px ;
+    border-radius: 20px;
+    padding: 5px 0 5px 0;
+
+}
 
 li{
-    display: inline;
-    list-style-type: none;
+    margin-bottom: 8px;
+    text-align: center;
+    background-color: chartreuse;
+    padding: 15px;
+    border-radius: 50%;
+    width: fit-content;
+    margin: 10px auto;
 }
+
+
